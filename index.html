@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一个关于后摇滚的网站">
+    <meta name="author" content="吴旦">
+    <link rel="shortcut icon" href="images/LOGOmini.png">
+
+    <title>后摇工作室</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/endpage-box.css" rel="stylesheet">
+    <style type="text/css">
+		#hoverimg{
+			opacity: 0.5;
+		}
+		#hoverimg:hover{
+			opacity: 1;
+			box-shadow: 0px 0px 25px #888888;
+		}
+		#caimg{
+			width:100%;
+			
+		}
+		#myCarousel{
+		overflow:hidden;
+		max-height:400px;
+		}
+		#LOGO{
+			position:absolute;
+			left:50px;
+			right:50px;
+			top:70px;
+			z-index:1;
+		}
+		body{
+			background-image:url(images/bg0.gif);
+		}
+		
+	</style>
+	<style id="holderjs-style" type="text/css"></style>
+
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div id="heiti" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="images/LOGOmini.png" alt="LOGO" title="LOGO" /></a>
+            </div>
+            <div class="navbar-collapse collapse" style="height: 1px;">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">乐队<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+				    <li class="dropdown-header">海外乐队</li>
+                    <li><a href="band0.html">Mogwai</a></li>
+                    <li><a href="band1.html">God is An Astronaut</a></li>
+                    <li><a href="band2.html">Explosions in the Sky</a></li>
+					<li><a href="band3.html">The American Dollar</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">国内乐队</li>
+                    <li><a href="band4.html">文雀</a></li>
+                    <li><a href="band5.html">惘闻</a></li>
+					<li><a href="band6.html">48V</a></li>
+					<li><a href="band7.html">发光曲线</a></li>
+                  </ul>
+                </li>
+				 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">专辑<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">墙裂推荐</li>
+                    <li><a href="album0.html">All is Violent, All is Bright</a></li>
+                    <li><a href="album1.html">Hardcore Will Never Die, But You Will</a></li>
+                  </ul>
+                </li>
+				<li><a href="#" data-toggle="modal" data-target="#myModal" role="button">关于作者</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+	
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">作者简介</h4>
+          </div>
+          <div class="modal-body">
+          &nbsp &nbsp &nbsp &nbsp 作者系清华大学电子系二字班的学生，出于对后摇滚这种音乐形式的热爱而编写了这个网页。在编写网页的过程中遇到了种种苦难，但也收获了完成一件艺术品的喜悦。
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-thumbs-up"></span> 给作者点个赞 <span class="glyphicon glyphicon-thumbs-up"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+	<div id="LOGO">
+	  <img class="img-responsive"src="images/LOGObanner.png" alt="LOGObanner" title="LOGObanner" />
+	</div>
+	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img id="caimg" alt="1st slide" src="images/slide0.jpg"/>
+        </div>
+        <div class="item">
+          <img id="caimg" alt="2nd slide" src="images/slide1.jpg"/>
+        </div>
+        <div class="item">
+          <img id="caimg" alt="3rd slide" src="images/slide2.jpg"/>
+        </div>
+		<div class="item">
+          <img id="caimg" alt="4th slide" src="images/slide3.jpg"/>
+        </div>
+		<div class="item">
+          <img id="caimg" alt="5th slide" src="images/slide4.jpg"/>
+        </div>
+		<div class="item">
+          <img id="caimg" alt="6th slide" src="images/slide5.jpg"/>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+    </div>
+    
+	<div class="container marketing">
+	  
+      <div class="row featurette">
+		<div class="col-md-7">
+          <h2 class="featurette-heading">摇滚乐 <span class="text-muted">到底是什么？</span></h2>
+          <p class="lead">或许到目前谁都还无法用任何的描述做一完整的定论；因为有人认为摇滚乐就是从当初的爵士、蓝调、民谣逐渐演化融合而成的混杂乐种；然而也有人认为摇滚乐当初就是禀着一种叛逆精神、生活态度或是一个观念而已。但不论如何，“Rock Music”在经过四十余年各种类型流派的萌芽与茁壮，才使得摇滚乐在今日得以呈现出这么多样的风格与类型出来。</p>
+		</div>
+		<div class="col-md-5">
+		  <a href="band0.html" title="Mogwai" data-placement="bottom" rel="tooltip"><img class="img-responsive img-circle" id="hoverimg" src="images/index1.jpg" alt="intro" /></a>
+		</div> 
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <a href="band4.html" title="文雀" data-placement="top" rel="tooltip"><img class="img-responsive img-circle" id="hoverimg" src="images/index2.jpg" alt="intro" /></a>
+		</div>
+		<div class="col-md-7">
+          <h2 class="featurette-heading">大约在95年，<span class="text-muted">美国村声杂志刊载了一篇由英国乐评家西蒙·雷诺兹所写的文章</span></h2>
+          <p class="lead">他在文中首次以"Post-Rock"一词，暂时统称当时勇于突破现有摇滚乐定义的前卫团体。没想到，过没多久，一些音乐杂志便以"Post-Rock"来正式称呼这群致力于摇滚乐新美学的新生代乐队。</p>
+        </div>
+	  </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+		<div class="col-md-7">
+          <h2 class="featurette-heading">具有讽刺意味的是在90年代末，<span class="text-muted">后摇滚获得了千篇一律的名声</span></h2>
+          <p class="lead">一些人发现这种音乐缺乏感情令人生厌，另一些人认为后摇滚已经没有了当初的激进融合而变得众所周知，这其中部分原因应归咎于许多后摇滚乐队在他们的最初音乐理念上甚少变化。然而即使在这种倒退的情况下，新一轮的乐队以其独特的声音获得了较为广泛的赞许，暗示着后摇滚这种音乐类型毕竟还未走到尽头。</p>
+        </div> 
+		<div class="col-md-5">
+          <a href="album0.html" title="All is Violent, All is Bright" data-placement="bottom" rel="tooltip"><img class="img-responsive img-circle" id="hoverimg" src="images/index3.jpg" alt="intro" /></a>
+		</div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <footer>
+        <p>© 2014 WuDan</p>
+      </footer>
+    
+	</div>
+
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancy-scroll.js"></script>
+	<script src="js/holder.min.js"></script>
+    <script type="text/javascript">
+    	 $(window).fancy_scroll({animation: "glow"});
+  	</script>
+	<script type="text/javascript">
+    	 $("a[rel=tooltip]").tooltip();
+  	</script>
+	<script src="js/jquery.endpage-box.js"></script>
+	<script type="text/javascript">
+	  $(window).load( function() {
+	    $("#endpage-box").endpage_box();
+	  });
+  	</script>
+	<div id="endpage-box" class="endpage-box" data-status="off" style="display: block;">
+	  <a href="#">
+	    <center><span class="glyphicon glyphicon-chevron-up"></span></center>
+	  </a>
+	</div>
+  </body>
+
+</html>
